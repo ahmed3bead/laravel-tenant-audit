@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Services;
+
+use Ahmed3bead\TenantAudit\Contracts\TenantResolverContract;
+
+class TenantResolver implements TenantResolverContract
+{
+    /**
+     * Resolve and return the current tenant identifier.
+     *
+     * Return null when no tenant context is active (central domain,
+     * CLI commands, unauthenticated requests, etc.).
+     *
+     * Examples for stancl/tenancy:
+     *   return tenant()?->getTenantKey();
+     *
+     * Examples for a custom implementation:
+     *   return app('currentTenant')?->id;
+     */
+    public function getTenantId(): int|string|null
+    {
+        // TODO: implement tenant resolution for your application
+        return null;
+    }
+}
