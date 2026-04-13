@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fb923c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="subtle-glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="840" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="1600" y2="0" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="105" x2="1600" y2="105" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1600" y2="210" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1600" y2="315" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1600" y2="420" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1600" y2="525" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="630" x2="1600" y2="630" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="735" x2="1600" y2="735" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="840" x2="1600" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="1400" y1="0" x2="1400" y2="840" stroke="#ffffff" stroke-width="1"/>
+    <line x1="1600" y1="0" x2="1600" y2="840" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Code block — right side -->
+  <g transform="translate(820, 120)">
+    <rect width="700" height="600" rx="12" fill="#1e2736" opacity="0.9"/>
+    <rect width="700" height="40" rx="12" fill="#252d3d"/>
+    <rect width="700" height="28" y="12" fill="#252d3d"/>
+    <!-- Window dots -->
+    <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+    <circle cx="66" cy="20" r="6" fill="#28c840"/>
+    <!-- Filename tab -->
+    <rect x="90" y="8" width="160" height="24" rx="4" fill="#1e2736"/>
+    <text x="170" y="25" font-family="monospace" font-size="11" fill="#8b949e" text-anchor="middle">Order.php</text>
+
+    <!-- Code lines -->
+    <!-- Line 1 -->
+    <text x="24" y="80" font-family="monospace" font-size="13" fill="#8b949e">1</text>
+    <text x="54" y="80" font-family="monospace" font-size="13" fill="#ff7b72">&lt;?php</text>
+
+    <!-- Line 2 blank -->
+    <text x="24" y="104" font-family="monospace" font-size="13" fill="#8b949e">2</text>
+
+    <!-- Line 3 -->
+    <text x="24" y="128" font-family="monospace" font-size="13" fill="#8b949e">3</text>
+    <text x="54" y="128" font-family="monospace" font-size="13" fill="#ff7b72">use </text>
+    <text x="96" y="128" font-family="monospace" font-size="13" fill="#79c0ff">Ahmed3bead\TenantAudit\</text>
+    <text x="350" y="128" font-family="monospace" font-size="13" fill="#79c0ff">Concerns\Auditable;</text>
+
+    <!-- Line 4 -->
+    <text x="24" y="152" font-family="monospace" font-size="13" fill="#8b949e">4</text>
+    <text x="54" y="152" font-family="monospace" font-size="13" fill="#ff7b72">use </text>
+    <text x="96" y="152" font-family="monospace" font-size="13" fill="#79c0ff">Ahmed3bead\TenantAudit\</text>
+    <text x="350" y="152" font-family="monospace" font-size="13" fill="#79c0ff">Contracts\AuditableContract;</text>
+
+    <!-- Line 5 blank -->
+    <text x="24" y="176" font-family="monospace" font-size="13" fill="#8b949e">5</text>
+
+    <!-- Line 6 -->
+    <text x="24" y="200" font-family="monospace" font-size="13" fill="#8b949e">6</text>
+    <text x="54" y="200" font-family="monospace" font-size="13" fill="#ff7b72">class </text>
+    <text x="106" y="200" font-family="monospace" font-size="13" fill="#ffa657">Order </text>
+    <text x="162" y="200" font-family="monospace" font-size="13" fill="#f0f6fc">extends </text>
+    <text x="236" y="200" font-family="monospace" font-size="13" fill="#ffa657">Model </text>
+    <text x="292" y="200" font-family="monospace" font-size="13" fill="#ff7b72">implements </text>
+    <text x="388" y="200" font-family="monospace" font-size="13" fill="#ffa657">AuditableContract</text>
+
+    <!-- Line 7 -->
+    <text x="24" y="224" font-family="monospace" font-size="13" fill="#8b949e">7</text>
+    <text x="54" y="224" font-family="monospace" font-size="13" fill="#f0f6fc">{</text>
+
+    <!-- Line 8 -->
+    <text x="24" y="248" font-family="monospace" font-size="13" fill="#8b949e">8</text>
+    <rect x="54" y="236" width="240" height="18" rx="2" fill="#f97316" opacity="0.12"/>
+    <text x="78" y="248" font-family="monospace" font-size="13" fill="#ff7b72">use </text>
+    <text x="120" y="248" font-family="monospace" font-size="13" fill="#f97316" filter="url(#subtle-glow)">Auditable;</text>
+
+    <!-- Line 9 blank -->
+    <text x="24" y="272" font-family="monospace" font-size="13" fill="#8b949e">9</text>
+
+    <!-- Line 10 -->
+    <text x="24" y="296" font-family="monospace" font-size="13" fill="#8b949e">10</text>
+    <text x="54" y="296" font-family="monospace" font-size="13" fill="#8b949e">    // Allowlist — only audit these</text>
+
+    <!-- Line 11 -->
+    <text x="24" y="320" font-family="monospace" font-size="13" fill="#8b949e">11</text>
+    <text x="78" y="320" font-family="monospace" font-size="13" fill="#ff7b72">protected array </text>
+    <text x="216" y="320" font-family="monospace" font-size="13" fill="#79c0ff">$auditable </text>
+    <text x="320" y="320" font-family="monospace" font-size="13" fill="#f0f6fc">= [</text>
+    <text x="360" y="320" font-family="monospace" font-size="13" fill="#a5d6ff">'status'</text>
+    <text x="424" y="320" font-family="monospace" font-size="13" fill="#f0f6fc">, </text>
+    <text x="440" y="320" font-family="monospace" font-size="13" fill="#a5d6ff">'total'</text>
+    <text x="496" y="320" font-family="monospace" font-size="13" fill="#f0f6fc">];</text>
+
+    <!-- Line 12 blank -->
+    <text x="24" y="344" font-family="monospace" font-size="13" fill="#8b949e">12</text>
+
+    <!-- Line 13 -->
+    <text x="24" y="368" font-family="monospace" font-size="13" fill="#8b949e">13</text>
+    <text x="54" y="368" font-family="monospace" font-size="13" fill="#8b949e">    // Custom event logging</text>
+
+    <!-- Line 14 -->
+    <text x="24" y="392" font-family="monospace" font-size="13" fill="#8b949e">14</text>
+    <text x="78" y="392" font-family="monospace" font-size="13" fill="#79c0ff">$order</text>
+    <text x="134" y="392" font-family="monospace" font-size="13" fill="#f0f6fc">-></text>
+    <text x="154" y="392" font-family="monospace" font-size="13" fill="#d2a8ff">auditEvent</text>
+    <text x="250" y="392" font-family="monospace" font-size="13" fill="#f0f6fc">(</text>
+    <text x="262" y="392" font-family="monospace" font-size="13" fill="#a5d6ff">'approved'</text>
+    <text x="340" y="392" font-family="monospace" font-size="13" fill="#f0f6fc">);</text>
+
+    <!-- Line 15 -->
+    <text x="24" y="416" font-family="monospace" font-size="13" fill="#8b949e">15</text>
+    <text x="78" y="416" font-family="monospace" font-size="13" fill="#79c0ff">$order</text>
+    <text x="134" y="416" font-family="monospace" font-size="13" fill="#f0f6fc">-></text>
+    <text x="154" y="416" font-family="monospace" font-size="13" fill="#d2a8ff">disableAudit</text>
+    <text x="270" y="416" font-family="monospace" font-size="13" fill="#f0f6fc">()-></text>
+    <text x="308" y="416" font-family="monospace" font-size="13" fill="#d2a8ff">update</text>
+    <text x="360" y="416" font-family="monospace" font-size="13" fill="#f0f6fc">([...]);</text>
+
+    <!-- Line 16 blank -->
+    <text x="24" y="440" font-family="monospace" font-size="13" fill="#8b949e">16</text>
+
+    <!-- Line 17 -->
+    <text x="24" y="464" font-family="monospace" font-size="13" fill="#8b949e">17</text>
+    <text x="54" y="464" font-family="monospace" font-size="13" fill="#8b949e">    // Suppress bulk operations</text>
+
+    <!-- Line 18 -->
+    <text x="24" y="488" font-family="monospace" font-size="13" fill="#8b949e">18</text>
+    <text x="54" y="488" font-family="monospace" font-size="13" fill="#ffa657">Order</text>
+    <text x="100" y="488" font-family="monospace" font-size="13" fill="#f0f6fc">::</text>
+    <text x="118" y="488" font-family="monospace" font-size="13" fill="#d2a8ff">withoutAudit</text>
+    <text x="234" y="488" font-family="monospace" font-size="13" fill="#f0f6fc">(function () {</text>
+
+    <!-- Line 19 -->
+    <text x="24" y="512" font-family="monospace" font-size="13" fill="#8b949e">19</text>
+    <text x="78" y="512" font-family="monospace" font-size="13" fill="#ffa657">    Order</text>
+    <text x="140" y="512" font-family="monospace" font-size="13" fill="#f0f6fc">::</text>
+    <text x="158" y="512" font-family="monospace" font-size="13" fill="#d2a8ff">query</text>
+    <text x="206" y="512" font-family="monospace" font-size="13" fill="#f0f6fc">()-></text>
+    <text x="244" y="512" font-family="monospace" font-size="13" fill="#d2a8ff">update</text>
+    <text x="296" y="512" font-family="monospace" font-size="13" fill="#f0f6fc">([...]);</text>
+
+    <!-- Line 20 -->
+    <text x="24" y="536" font-family="monospace" font-size="13" fill="#8b949e">20</text>
+    <text x="54" y="536" font-family="monospace" font-size="13" fill="#f0f6fc">});</text>
+
+    <!-- Line 21 -->
+    <text x="24" y="560" font-family="monospace" font-size="13" fill="#8b949e">21</text>
+    <text x="54" y="560" font-family="monospace" font-size="13" fill="#f0f6fc">}</text>
+  </g>
+
+  <!-- Left side content -->
+  <!-- Laravel badge -->
+  <rect x="80" y="110" width="120" height="32" rx="16" fill="#ff2d20" opacity="0.15"/>
+  <rect x="80" y="110" width="120" height="32" rx="16" fill="none" stroke="#ff2d20" stroke-width="1" opacity="0.5"/>
+  <text x="140" y="131" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ff6b60" text-anchor="middle">Laravel</text>
+
+  <!-- PHP badge -->
+  <rect x="212" y="110" width="80" height="32" rx="16" fill="#7c3aed" opacity="0.15"/>
+  <rect x="212" y="110" width="80" height="32" rx="16" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.5"/>
+  <text x="252" y="131" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#a78bfa" text-anchor="middle">PHP 8.1+</text>
+
+  <!-- MIT badge -->
+  <rect x="304" y="110" width="70" height="32" rx="16" fill="#059669" opacity="0.15"/>
+  <rect x="304" y="110" width="70" height="32" rx="16" fill="none" stroke="#059669" stroke-width="1" opacity="0.5"/>
+  <text x="339" y="131" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#34d399" text-anchor="middle">MIT</text>
+
+  <!-- Main title -->
+  <text x="80" y="240" font-family="system-ui, sans-serif" font-size="20" font-weight="400" fill="#8b949e" letter-spacing="3">PACKAGE RELEASE</text>
+
+  <!-- Package name -->
+  <text x="80" y="330" font-family="system-ui, sans-serif" font-size="58" font-weight="800" fill="#f0f6fc" letter-spacing="-1">laravel-</text>
+  <text x="80" y="405" font-family="system-ui, sans-serif" font-size="58" font-weight="800" fill="url(#accent)" letter-spacing="-1" filter="url(#subtle-glow)">tenant-</text>
+  <text x="80" y="480" font-family="system-ui, sans-serif" font-size="58" font-weight="800" fill="#f0f6fc" letter-spacing="-1">audit</text>
+
+  <!-- Tagline -->
+  <text x="80" y="545" font-family="system-ui, sans-serif" font-size="20" fill="#8b949e">Multi-tenant audit logging for Laravel 10 / 11 / 12 / 13</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="580" x2="720" y2="580" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Feature list -->
+  <g transform="translate(80, 610)">
+    <!-- Feature 1 -->
+    <circle cx="8" cy="8" r="4" fill="#f97316"/>
+    <text x="24" y="14" font-family="system-ui, sans-serif" font-size="15" fill="#8b949e">Polymorphic actor — Admin, Vendor, Customer, any model</text>
+
+    <!-- Feature 2 -->
+    <circle cx="8" cy="38" r="4" fill="#a78bfa"/>
+    <text x="24" y="44" font-family="system-ui, sans-serif" font-size="15" fill="#8b949e">Per-model allowlists, excludelists, event toggles</text>
+
+    <!-- Feature 3 -->
+    <circle cx="8" cy="68" r="4" fill="#34d399"/>
+    <text x="24" y="74" font-family="system-ui, sans-serif" font-size="15" fill="#8b949e">Custom business events · Async queue · Auto-pruning</text>
+
+    <!-- Feature 4 -->
+    <circle cx="8" cy="98" r="4" fill="#60a5fa"/>
+    <text x="24" y="104" font-family="system-ui, sans-serif" font-size="15" fill="#8b949e">composer require ahmed3bead/laravel-tenant-audit</text>
+  </g>
+
+  <!-- Bottom author line -->
+  <text x="80" y="800" font-family="system-ui, sans-serif" font-size="14" fill="#484f58">by Ahmed Abead · github.com/ahmed3bead/laravel-tenant-audit</text>
+
+  <!-- Decorative orange line top -->
+  <rect x="0" y="0" width="1600" height="3" fill="url(#accent)"/>
+
+  <!-- Corner glow -->
+  <ellipse cx="1550" cy="40" rx="200" ry="80" fill="#f97316" opacity="0.04"/>
+</svg>
