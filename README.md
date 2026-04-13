@@ -1,3 +1,5 @@
+![laravel-tenant-audit](assets/medium-cover.png)
+
 # laravel-tenant-audit
 
 Multi-tenant audit logging for Laravel. Tracks model `created`, `updated`, `deleted`, `restored`, and custom business events per tenant, with full control over attribute filtering, actor resolution, and storage.
