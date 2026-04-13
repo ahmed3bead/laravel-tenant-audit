@@ -4,3 +4,6 @@ node_modules/
 .phpunit.result.cache
 coverage/
 *.log
+CLAUDE.md
+.idea/*
+composer.lock

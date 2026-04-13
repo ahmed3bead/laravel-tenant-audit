@@ -167,7 +167,7 @@ Unit tests operate on the `tenant_audit_logs` table from the package migration.
 - [x] Step 11: Pest tests — Unit
 - [x] Step 12: Pest tests — Feature
 - [x] Step 13: README.md (installation + usage)
-- [ ] Step 14: Tag v1.0.0 + publish to Packagist
+- [x] Step 14: Tag v1.0.0 + publish to Packagist
 
 ---
 
